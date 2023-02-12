@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@200 & family= Prata & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    padding-right: 50px;
+    background: black;
+}
+
+.cabecalho-titulo{
+    font-family: 'Prata', serif;
+    padding-left: 30px;
+    font-size: 25px;
+    color: white;
+    align-items: flex-start;
+}
+
+.cabecalho-menu{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    gap: 32px;
+    color: white;
+    font-size: 15px;
+}
+
+.cabecalho-botao{
+    font-family: 'Inter', sans-serif;
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    cursor: pointer;    
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: black;
+}
+
+.section1-titulo{
+    font-family: 'Prata', serif;
+    padding-left: 55px;
+    font-size: 30px;
+    display: flex;
+    color: white;
+}
+
+.section1-paragrafo{
+    font-family: 'Inter', sans-serif;
+    padding-top: 15px;
+    padding-left: 55px;
+    padding-bottom: 50px;
+    display: flex;
+    color: white;
+}
+
+.section1-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 55px;
+    background: black;
+}
+
+.section2{
+    padding-left: 55px;
+    background: black;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    gap: 150px;
+}
+
+.section2-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2-site{
+    padding-top: 15px;
+    height: 300px;
+    width: 400px;
+}
+
+.section2-titulo{
+    font-family: 'Prata', serif;
+    padding-left: 3px;
+    padding-top: 10px;
+    color: white;
+}
+
+.section2-paragrafo{
+    font-family: 'Inter', sans-serif;
+    padding-left: 3px;
+    padding-top: 10px;
+    color: white;
+}
+
+.section3{
+    background: #5b5b5b;
+    display: flex;
+    padding-left: 55px;
+    padding-bottom: 30px;
+    gap: 25px;
+}
+
+.section3-titulo{
+    font-family: 'Prata', serif;
+    padding-top: 25px;
+    font-size: 30px;
+    color: white;
+}
+
+.section3-p{
+    color: white;
+    padding-top: 20px;
+}
+
+.section3-div2{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section4{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 55px;
+    padding-bottom: 40px;   
+}
+
+.section4-titulo{
+    font-family: 'Prata', serif;
+    padding-top: 40px;
+    font-size: 30px;
+    color: white;   
+}
+
+.section4-paragrafo{
+    font-family: 'Inter', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.section4-botao{
+    font-family: 'Inter', sans-serif;
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.footer{
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #5b5b5b;
+}
+
+.footer-titulo{
+    font-family: 'Prata', serif;
+    font-size: 25px;
+    align-items: flex-start;
+    color: white;
+}   
+
+.footer-navegadores{
+    display: flex;
+    gap: 15px;
+    padding-right: 30px;
+}
